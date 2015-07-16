@@ -1,0 +1,19 @@
+so far I have a few things that need doing
+	tvb
+		finish installing the matlab program
+		install the matlab8 interface program using apt-get
+		finish with the other interface program installations 
+			maybe make a file with the names of the files that need
+			to get installed with the apt-get command
+			maybe first make a file that has all the names
+		run another nipype.test() and see if there are still two error
+		use the website link that lia sent me and see if there is 
+anything interesting about the program that I didn't know about()
+			this would be something to do when I have time in the 
+			evening to use somewhat still productively
+	basic computer
+		figure out what is going on with the vim program
+			get it reinstalled with apt-get for python2
+		finish learning the labs on the git page 
+	around the house
+	
