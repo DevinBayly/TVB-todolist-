@@ -1,19 +1,43 @@
 so far I have a few things that need doing
 	tvb
-		finish installing the matlab program
-		install the matlab8 interface program using apt-get
-		finish with the other interface program installations 
+		XX finish installing the matlab program
+		XX install the matlab8 interface program using apt-get
+		X finish with the other interface program installations 
 			maybe make a file with the names of the files that need
 			to get installed with the apt-get command
 			maybe first make a file that has all the names
-		run another nipype.test() and see if there are still two error
+
+			O had to find another way to install Freesurfer
+				maybe even the ANTs and MRtrix too		
+
+		x run another nipype.test() and see if there are still two error
+			O yes there are still two fails based off FSL
+			O and there is one error based on the matlab not being setup properly
+	
+		matlab takes forever to load, figure out what's going on
+		
+		read the two articles
+			simulator of primate brain dynamics
+			integrating neuroinformatics tools
+		
+		read description of the TVB input dataset (output of SCRIPTS pipeline)
+
+		read about the software related to the scripts (FSL and Freesurfer)
+
+		start setting up a VM to reproduce the install procedure documented on github
+		
+		Work as far into the Nipype beginners guide as i can	
+
 		use the website link that lia sent me and see if there is 
-anything interesting about the program that I didn't know about()
+			anything interesting about the program that I didn't know about()
 			this would be something to do when I have time in the 
 			evening to use somewhat still productively
+----------------------------------------------------------------------------
 	basic computer
 		figure out what is going on with the vim program
 			get it reinstalled with apt-get for python2
 		finish learning the labs on the git page 
+
+----------------------------------------------------------------------------
 	around the house
 	
