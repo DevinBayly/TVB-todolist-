@@ -15,7 +15,9 @@ so far I have a few things that need doing
 			O and there is one error based on the matlab not being setup properly
 	
 		matlab takes forever to load, figure out what's going on
-		
+			still loading close to thirty mins later
+			maybe it has to do with the fact it is loading the entire library of modules I downloaded with it. 
+				find way to specify just matlab load
 		read the two articles
 			simulator of primate brain dynamics
 			integrating neuroinformatics tools
@@ -28,14 +30,20 @@ so far I have a few things that need doing
 		
 		Work as far into the Nipype beginners guide as i can	
 
+		X track down someone at the U of A who can be my advisor in this project
+			O At this point I have sent out two emails 
+
+		X Follow up with the HPC (high power computing) facility on campus
+			O Sent one email, waiting for response
+
 		use the website link that lia sent me and see if there is 
 			anything interesting about the program that I didn't know about()
 			this would be something to do when I have time in the 
 			evening to use somewhat still productively
 ----------------------------------------------------------------------------
 	basic computer
-		figure out what is going on with the vim program
-			get it reinstalled with apt-get for python2
+		xx figure out what is going on with the vim program
+			xx get it reinstalled with apt-get for python2
 		finish learning the labs on the git page 
 
 ----------------------------------------------------------------------------
