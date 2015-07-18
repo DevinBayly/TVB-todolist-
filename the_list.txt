@@ -12,6 +12,7 @@ so far I have a few things that need doing
 
 		x run another nipype.test() and see if there are still two error
 			O yes there are still two fails based off FSL
+			xx managed to get FSL installed on the computer
 			O and there is one error based on the matlab not being setup properly
 	
 		matlab takes forever to load, figure out what's going on
