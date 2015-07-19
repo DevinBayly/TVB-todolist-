@@ -27,8 +27,8 @@ so far I have a few things that need doing
 
 		read about the software related to the scripts (FSL and Freesurfer)
 
-		start setting up a VM to reproduce the install procedure documented on github
-		
+		x start setting up a VM to reproduce the install procedure documented on github
+			x I got as far as downloading Oracle for Ubuntu this evening 
 		Work as far into the Nipype beginners guide as i can	
 
 		X track down someone at the U of A who can be my advisor in this project
