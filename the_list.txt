@@ -7,9 +7,9 @@ so far I have a few things that need doing
 			to get installed with the apt-get command
 			maybe first make a file that has all the names
 
-			O had to find another way to install Freesurfer
+			OX had to find another way to install Freesurfer
 				maybe even the ANTs and MRtrix too		
-
+				x starting the free surfer download
 		x run another nipype.test() and see if there are still two error
 			O yes there are still two fails based off FSL
 				XX the nipype.test() now passes all 7454 tests 
