@@ -12,13 +12,17 @@ so far I have a few things that need doing
 
 		x run another nipype.test() and see if there are still two error
 			O yes there are still two fails based off FSL
+				XX the nipype.test() now passes all 7454 tests 
+				unfortunately there are 10 skips (interface dependencies?)
 			xx managed to get FSL installed on the computer
 			O and there is one error based on the matlab not being setup properly
-	
-		matlab takes forever to load, figure out what's going on
+				xx seems to be passing whatever test failed before	
+		x matlab takes forever to load, figure out what's going on
 			still loading close to thirty mins later
 			maybe it has to do with the fact it is loading the entire library of modules I downloaded with it. 
 				find way to specify just matlab load
+			XX This was resolved by tracking down the permissions of the .matlab directory and recreating the license file upon load. 
+
 		read the two articles
 			simulator of primate brain dynamics
 			integrating neuroinformatics tools
