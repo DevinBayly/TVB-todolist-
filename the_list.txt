@@ -1,7 +1,9 @@
 so far I have a few things that need doing
 	tvb
 		XX finish installing the matlab program
+		
 		XX install the matlab8 interface program using apt-get
+
 		X finish with the other interface program installations 
 			maybe make a file with the names of the files that need
 			to get installed with the apt-get command
@@ -10,6 +12,8 @@ so far I have a few things that need doing
 			OX had to find another way to install Freesurfer
 				maybe even the ANTs and MRtrix too		
 				x starting the free surfer download
+				XX Finished the Freesurfer download and installation 
+
 		x run another nipype.test() and see if there are still two error
 			O yes there are still two fails based off FSL
 				XX the nipype.test() now passes all 7454 tests 
@@ -17,6 +21,8 @@ so far I have a few things that need doing
 			xx managed to get FSL installed on the computer
 			O and there is one error based on the matlab not being setup properly
 				xx seems to be passing whatever test failed before	
+		
+		
 		x matlab takes forever to load, figure out what's going on
 			still loading close to thirty mins later
 			maybe it has to do with the fact it is loading the entire library of modules I downloaded with it. 
@@ -33,24 +39,28 @@ so far I have a few things that need doing
 
 		x start setting up a VM to reproduce the install procedure documented on github
 			x I got as far as downloading Oracle for Ubuntu this evening 
+		
+		
 		Work as far into the Nipype beginners guide as i can	
 
 		X track down someone at the U of A who can be my advisor in this project
 			O At this point I have sent out two emails 
+			O Followed by 4 others to individuals in different departments
+
 
 		X Follow up with the HPC (high power computing) facility on campus
 			O Sent one email, waiting for response
+			O U of a researchers to sponsor me for resources
 
-		use the website link that lia sent me and see if there is 
-			anything interesting about the program that I didn't know about()
-			this would be something to do when I have time in the 
-			evening to use somewhat still productively
-----------------------------------------------------------------------------
+		use the website link that lia sent me to explore the webpage TVB
+
+
+---------------------------------------------------------------------------
 	basic computer
 		xx figure out what is going on with the vim program
 			xx get it reinstalled with apt-get for python2
 		finish learning the labs on the git page 
+			Xx managed to set up a git page with this document as contents
+			Xx wrote a brief script to automate the process of adding commiting and pushing
 
-----------------------------------------------------------------------------
-	around the house
-	
+
