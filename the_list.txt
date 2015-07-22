@@ -39,7 +39,8 @@ so far I have a few things that need doing
 
 		x start setting up a VM to reproduce the install procedure documented on github
 			x I got as far as downloading Oracle for Ubuntu this evening 
-		
+			xx finished installing debian 8, fired up and recieved a slow response
+				O the vm debian took 24 seconds to echo 10000 numbers compared to 1s for the native ubuntu 
 		
 		Work as far into the Nipype beginners guide as i can	
 
