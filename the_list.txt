@@ -30,10 +30,13 @@ so far I have a few things that need doing
 			XX This was resolved by tracking down the permissions of the .matlab directory and recreating the license file upon load. 
 
 		read the two articles
-			simulator of primate brain dynamics
+			XX simulator of primate brain dynamics
+				the pieces on validating the TVB model using the V1 and V2 visual streams is incredible
+
+
 			integrating neuroinformatics tools
 		
-		read description of the TVB input dataset (output of SCRIPTS pipeline)
+		read description of the TVB input dataset (output of SCRIPTS pipeline) Tim P document
 
 		read about the software related to the scripts (FSL and Freesurfer)
 
@@ -47,6 +50,7 @@ so far I have a few things that need doing
 		X track down someone at the U of A who can be my advisor in this project
 			O At this point I have sent out two emails 
 			O Followed by 4 others to individuals in different departments
+			X Kobus Barnard will cover for my HPC cycles although he is on sabbatical
 
 
 		X Follow up with the HPC (high power computing) facility on campus
