@@ -12,8 +12,11 @@ so far I have a few things that need doing
 			OX had to find another way to install Freesurfer
 				maybe even the MNE and MRtrix too
 				x MRtrix is available through the Neurodeb repo
+					xx set path, changed config file threads to 2 (nproc), and ran mrview successfully
 				x MNE available as python-mne
 					struggling to import it into miniconda setting (pythonpath breaks things)
+					perhaps create a binstar set of packages that are necessary for SCRIPTS
+					xx success by placing sys.path appending py script in the .ipython/default_profile/startup directory
 				x starting the free surfer download
 				XX Finished the Freesurfer download and installation 
 
@@ -63,7 +66,10 @@ so far I have a few things that need doing
 		use the website link that lia sent me to explore the webpage TVB
 			xx Now I'm validated and registered for use
 
-
+		get SCRIPTS setup on my computer
+			XX cloned both Scripts gits onto my computer for easier access
+			O make both capable of running commits from
+				CRLF error fatal: CRLF would be replaced by LF in scripts/compute_region_centres.prj. 
 
 
 
