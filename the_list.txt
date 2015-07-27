@@ -2,13 +2,15 @@ so far I have a few things that need doing
 	tvb
 		XX finish installing the matlab program
 		
-		XX install the matlab8 interface program using apt-get
-
+		XX install the matlabspm8 interface program using apt-get
+			O there seems to be a problem with the matlab path. Following satra's instructions on the Neurostars webpage, I can't run which spm, and get a path back to the folder
+			XX searched full computer for spm.m and found it in the usr/share
 		X finish with the other interface program installations 
+
 			maybe make a file with the names of the files that need
 			to get installed with the apt-get command
 			maybe first make a file that has all the names
-
+		
 			OX had to find another way to install Freesurfer
 				maybe even the MNE and MRtrix too
 				x MRtrix is available through the Neurodeb repo
@@ -19,6 +21,11 @@ so far I have a few things that need doing
 					xx success by placing sys.path appending py script in the .ipython/default_profile/startup directory
 				x starting the free surfer download
 				XX Finished the Freesurfer download and installation 
+			Install Camino and connectomeviewer 
+				XX successful
+
+			Get AFNI updated, and running
+				O Neurodeb copy is very old.
 
 		x run another nipype.test() and see if there are still two error
 			O yes there are still two fails based off FSL
@@ -38,12 +45,11 @@ so far I have a few things that need doing
 		read the two articles
 			XX simulator of primate brain dynamics
 				the pieces on validating the TVB model using the V1 and V2 visual streams are incredible
-
-
 			integrating neuroinformatics tools
-		
-		read description of the TVB input dataset (output of SCRIPTS pipeline) Tim P document
+			XX read Jirsa and Deco on resting state networks
 
+		read Tim's scripts article	
+				
 		read about the software related to the scripts (FSL and Freesurfer)
 
 		x start setting up a VM to reproduce the install procedure documented on github
@@ -52,11 +58,16 @@ so far I have a few things that need doing
 				O the vm debian took 24 seconds to echo 10000 numbers compared to 1s for the native ubuntu 
 		
 		Work as far into the Nipype beginners guide as i can	
+			x starting the very first tutorial 
+			X successfull created a workflow made up of three nodes
+			O having trouble running the workflow. Need to be able to check the workflow log
 
 		X track down someone at the U of A who can be my advisor in this project
 			O At this point I have sent out two emails 
 			O Followed by 4 others to individuals in different departments
 			X Kobus Barnard will cover for my HPC cycles although he is on sabbatical
+			X Stephen Allen wonders about whether I would work in his lab
+			x Wilson says lets talk in august when he's back
 
 
 		X Follow up with the HPC (high power computing) facility on campus
@@ -66,12 +77,16 @@ so far I have a few things that need doing
 		use the website link that lia sent me to explore the webpage TVB
 			xx Now I'm validated and registered for use
 
+		register with the human connectome project
+			xx validated and able to download data
+
+
 		get SCRIPTS setup on my computer
 			XX cloned both Scripts gits onto my computer for easier access
 			O make both capable of running commits from
 				CRLF error fatal: CRLF would be replaced by LF in scripts/compute_region_centres.prj. 
-
-
+			O perhaps fork the scripts repo instead of trying to create it and commit from my host machine
+		
 
 ---------------------------------------------------------------------------
 	basic computer
