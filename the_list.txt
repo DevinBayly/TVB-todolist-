@@ -26,6 +26,8 @@ so far I have a few things that need doing
 
 			Get AFNI updated, and running
 				O Neurodeb copy is very old.
+				X installed new version
+					O fails on run with missing file libXp.so.6
 
 		x run another nipype.test() and see if there are still two error
 			O yes there are still two fails based off FSL
@@ -61,8 +63,17 @@ so far I have a few things that need doing
 			x starting the very first tutorial 
 			X successfull created a workflow made up of three nodes
 			O having trouble running the workflow. Need to be able to check the workflow log
+			x running a timed test on a two node pipe 
+				O getting error "innapropriate ioctl for Device"
+				xCPU times: user 584 ms, sys: 608 ms, total: 1.19 s
+Wall time: 17min 26s 
+				O it might be worth investigating more into the multiprocessing that nipype workflows can do
+			x going through the nipype_concepts beginner manual
+				Xfinished interfaces
+				Xworking on workflows
+				X finished iterations
 
-		X track down someone at the U of A who can be my advisor in this project
+		track down someone at the U of A who can be my advisor in this project
 			O At this point I have sent out two emails 
 			O Followed by 4 others to individuals in different departments
 			X Kobus Barnard will cover for my HPC cycles although he is on sabbatical
