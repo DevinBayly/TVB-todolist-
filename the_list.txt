@@ -50,6 +50,14 @@ so far I have a few things that need doing
 			integrating neuroinformatics tools
 			XX read Jirsa and Deco on resting state networks
 
+		Read tim's unpublished paper on SCRIPTS
+			XX I read over the section that I need to see how he is using scripts
+		scan the free surfer wiki
+
+		scan the flirt fsl wiki
+
+		scan the MRtrix git page
+
 		read Tim's scripts article	
 				
 		read about the software related to the scripts (FSL and Freesurfer)
@@ -90,14 +98,22 @@ Wall time: 17min 26s
 
 		register with the human connectome project
 			xx validated and able to download data
-
+			O get a connectome from the website
+				X get the plugin not installed that I need to download images
+				O get all the subject data from hcp involving subject 1033 and 1034 
+					X I have their T2 data
+					X I have their MPRAGE data
 
 		get SCRIPTS setup on my computer
 			XX cloned both Scripts gits onto my computer for easier access
 			O make both capable of running commits from
 				CRLF error fatal: CRLF would be replaced by LF in scripts/compute_region_centres.prj. 
 			O perhaps fork the scripts repo instead of trying to create it and commit from my host machine
-		
+			
+		start converting the Scripts
+			x began work on the main_surface.sh
+				O running reconall from free surfer gives this message aftermany hours of running, although it is not always the same one. the invalid is though
+				INFO:interface:stdout 2015-07-29T07:25:21.050507:0000: dt=0.000, rms=0.595, neg=0, invalid=96777	
 
 ---------------------------------------------------------------------------
 	basic computer
