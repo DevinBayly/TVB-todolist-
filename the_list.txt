@@ -87,11 +87,14 @@ Wall time: 17min 26s
 			X Kobus Barnard will cover for my HPC cycles although he is on sabbatical
 			X Stephen Allen wonders about whether I would work in his lab
 			x Wilson says lets talk in august when he's back
-
+			XX Kobus Barnard has added me to his research group so that I may use the HPC
 
 		X Follow up with the HPC (high power computing) facility on campus
 			O Sent one email, waiting for response
 			O U of a researchers to sponsor me for resources
+			XX setup on the HPC
+			O can't find a way to really get all the packages easily without administrator permission.
+				O trying to install everything in a subfolder of my section of xdisk
 
 		use the website link that lia sent me to explore the webpage TVB
 			xx Now I'm validated and registered for use
@@ -114,6 +117,8 @@ Wall time: 17min 26s
 			x began work on the main_surface.sh
 				O running reconall from free surfer gives this message aftermany hours of running, although it is not always the same one. the invalid is though
 				INFO:interface:stdout 2015-07-29T07:25:21.050507:0000: dt=0.000, rms=0.595, neg=0, invalid=96777	
+		
+		start a version of reconall on the HPC remote server
 
 ---------------------------------------------------------------------------
 	basic computer
